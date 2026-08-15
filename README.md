@@ -17,6 +17,8 @@
 
 模板本身不包含具体业务域。业务代码可以根据项目需求选择按 layer-based 或 feature-based 方式组织。
 
+> Package management: This template uses uv by default. The project metadata follows standard pyproject.toml conventions, so other Python package managers can be adopted by replacing the uv-specific lockfile and workflow.
+
 ## Requirements
 
 * Python 3.13
